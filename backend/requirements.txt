@@ -1,0 +1,19 @@
+asgiref
+certifi
+charset-normalizer
+Django
+django-email-verification
+django-rest-passwordreset
+djangorestframework
+djangorestframework-simplejwt # Changed to compatible version
+idna
+psycopg-binary
+psycopg2
+PyJWT
+python-dotenv
+python-env
+pytz
+requests
+sqlparse
+tzdata
+urllib3

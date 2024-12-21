@@ -1,0 +1,16 @@
+.newsletter {
+    position: relative;
+}
+
+.newsletter img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.newsletter h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: white;
+}

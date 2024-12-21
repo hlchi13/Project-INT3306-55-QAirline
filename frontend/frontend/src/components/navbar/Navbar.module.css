@@ -1,0 +1,235 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem;
+    background: transparent;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 0;
+    z-index: 1000;
+    height: 9vh;
+    width: 100%;
+}
+
+.position_relative {
+    position: relative;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.logoImage {
+    height: 3rem;
+}
+
+.navItems {
+    justify-content: center;
+    gap: 2%;
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+.navItemsContainer {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    justify-content: space-between;
+    width: 80%;
+}
+
+.navItems li {
+    padding: 0;
+    transition: all 0.3s ease;
+}
+
+.navItems li:hover {
+    scale: 1.05;
+}
+
+.navItems button {
+    background: none;
+    border: none;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.navItems button:hover {
+    color: #171e25;
+}
+
+.icon {
+    margin-right: 0.5rem;
+}
+
+.userSection {
+    position: relative;
+    margin-left: 2rem;
+}
+
+.userButton {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+}
+
+.userButton:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.userIcon {
+    color: rgb(0, 0, 0);
+    width: 24px;
+    height: 24px;
+    margin-left: 6px;
+}
+
+.dropdown {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    margin-top: 0.5rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    min-width: 150px;
+    overflow: hidden;
+    z-index: 1000;
+}
+
+.dropdown button {
+    display: block;
+    width: 100%;
+    padding: 0.75rem 1rem;
+    text-align: left;
+    border: none;
+    background: none;
+    color: #333;
+    cursor: pointer;
+}
+
+.dropdown button:hover {
+    background-color: #f0f8ff;
+}
+
+.loginButton {
+    background: none;
+    border: none;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    padding: 8px;
+    border-radius: 10%;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.loginButton:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #171e25;
+}
+
+.loginButton .icon {
+    margin-right: 0.5rem;
+}
+
+.mobileMenuButton {
+    display: none;
+}
+
+.mobileNavPanel {
+    display: none;
+}
+
+@media (max-width: 900px) {
+    .navItemsContainer {
+        display: none;
+    }
+
+    .mobileMenuButton {
+        background: none;
+        border: none;
+        font-size: 2rem;
+        cursor: pointer;
+        color: black;
+        z-index: 1100;
+        display: block;
+    }
+
+    .mobileNavPanel {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        height: 100vh;
+        width: 70%;
+        background-color: #fff;
+        box-shadow: -2px 0 5px rgba(0, 0, 0, 0.3);
+        transition: right 0.3s ease;
+        display: flex;
+        flex-direction: column;
+        padding: 2rem;
+        z-index: 1200;
+    }
+
+    .mobileNavPanel.open {
+        right: 0;
+    }
+
+    .closeButton {
+        background: none;
+        border: none;
+        font-size: 2rem;
+        align-self: flex-end;
+        cursor: pointer;
+    }
+
+    .mobileNavItems {
+        list-style: none;
+        padding: 0;
+        margin-top: 2rem;
+    }
+
+    .mobileNavItems li {
+        margin-bottom: 1rem;
+    }
+
+    .mobileNavItems button {
+        width: 100%;
+        background: none;
+        border: none;
+        text-align: left;
+        font-size: 1.2rem;
+        cursor: pointer;
+        padding: 0.5rem 0;
+        border-bottom: 1px solid #ccc;
+        display: flex;
+        align-items: center;
+    }
+
+    .mobileNavItems button:hover {
+        color: #171e25;
+    }
+
+    .userSection {
+        display: none;
+    }
+
+    .navbar {
+        padding: 1rem 2rem;
+        height: auto;
+    }
+}

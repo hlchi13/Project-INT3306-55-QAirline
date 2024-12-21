@@ -1,0 +1,373 @@
+[
+    {
+        "idairport": 1,
+        "name": "Tan Son Nhat International Airport",
+        "country": "Vietnam",
+        "city": "Ho Chi Minh City",
+        "code": "SGN"
+    },
+    {
+        "idairport": 2,
+        "name": "Noi Bai International Airport",
+        "country": "Vietnam",
+        "city": "Hanoi",
+        "code": "HAN"
+    },
+    {
+        "idairport": 3,
+        "name": "Da Nang International Airport",
+        "country": "Vietnam",
+        "city": "Da Nang",
+        "code": "DAD"
+    },
+    {
+        "idairport": 4,
+        "name": "Cam Ranh International Airport",
+        "country": "Vietnam",
+        "city": "Nha Trang",
+        "code": "CXR"
+    },
+    {
+        "idairport": 5,
+        "name": "Changi Airport",
+        "country": "Singapore",
+        "city": "Singapore",
+        "code": "SIN"
+    },
+    {
+        "idairport": 6,
+        "name": "Incheon International Airport",
+        "country": "South Korea",
+        "city": "Incheon",
+        "code": "ICN"
+    },
+    {
+        "idairport": 7,
+        "name": "Seoul Gimpo International Airport",
+        "country": "South Korea",
+        "city": "Seoul",
+        "code": "GMP"
+    },
+    {
+        "idairport": 8,
+        "name": "Kuala Lumpur International Airport",
+        "country": "Malaysia",
+        "city": "Kuala Lumpur",
+        "code": "KUL"
+    },
+    {
+        "idairport": 9,
+        "name": "Hong Kong International Airport",
+        "country": "Hong Kong",
+        "city": "Hong Kong",
+        "code": "HKG"
+    },
+    {
+        "idairport": 10,
+        "name": "Suvarnabhumi Airport",
+        "country": "Thailand",
+        "city": "Bangkok",
+        "code": "BKK"
+    },
+    {
+        "idairport": 11,
+        "name": "Narita International Airport",
+        "country": "Japan",
+        "city": "Tokyo",
+        "code": "NRT"
+    },
+    {
+        "idairport": 12,
+        "name": "Tokyo Haneda Airport",
+        "country": "Japan",
+        "city": "Tokyo",
+        "code": "HND"
+    },
+    {
+        "idairport": 13,
+        "name": "Los Angeles International Airport",
+        "country": "United States",
+        "city": "Los Angeles",
+        "code": "LAX"
+    },
+    {
+        "idairport": 14,
+        "name": "John F. Kennedy International Airport",
+        "country": "United States",
+        "city": "New York",
+        "code": "JFK"
+    },
+    {
+        "idairport": 15,
+        "name": "Heathrow Airport",
+        "country": "United Kingdom",
+        "city": "London",
+        "code": "LHR"
+    },
+    {
+        "idairport": 16,
+        "name": "Charles de Gaulle Airport",
+        "country": "France",
+        "city": "Paris",
+        "code": "CDG"
+    },
+    {
+        "idairport": 17,
+        "name": "Amsterdam Schiphol Airport",
+        "country": "Netherlands",
+        "city": "Amsterdam",
+        "code": "AMS"
+    },
+    {
+        "idairport": 18,
+        "name": "Berlin Brandenburg Airport",
+        "country": "Germany",
+        "city": "Berlin",
+        "code": "BER"
+    },
+    {
+        "idairport": 19,
+        "name": "Dubai International Airport",
+        "country": "United Arab Emirates",
+        "city": "Dubai",
+        "code": "DXB"
+    },
+    {
+        "idairport": 20,
+        "name": "Hamad International Airport",
+        "country": "Qatar",
+        "city": "Doha",
+        "code": "DOH"
+    },
+    {
+        "idairport": 21,
+        "name": "San Francisco International Airport",
+        "country": "United States",
+        "city": "San Francisco",
+        "code": "SFO"
+    },
+    {
+        "idairport": 22,
+        "name": "Miami International Airport",
+        "country": "United States",
+        "city": "Miami",
+        "code": "MIA"
+    },
+    {
+        "idairport": 23,
+        "name": "Sydney Kingsford Smith Airport",
+        "country": "Australia",
+        "city": "Sydney",
+        "code": "SYD"
+    },
+    {
+        "idairport": 24,
+        "name": "Auckland Airport",
+        "country": "New Zealand",
+        "city": "Auckland",
+        "code": "AKL"
+    },
+    {
+        "idairport": 25,
+        "name": "Manchester Airport",
+        "country": "United Kingdom",
+        "city": "Manchester",
+        "code": "MAN"
+    },
+    {
+        "idairport": 26,
+        "name": "Zurich Airport",
+        "country": "Switzerland",
+        "city": "Zurich",
+        "code": "ZRH"
+    },
+    {
+        "idairport": 27,
+        "name": "Vienna International Airport",
+        "country": "Austria",
+        "city": "Vienna",
+        "code": "VIE"
+    },
+    {
+        "idairport": 28,
+        "name": "Copenhagen Airport",
+        "country": "Denmark",
+        "city": "Copenhagen",
+        "code": "CPH"
+    },
+    {
+        "idairport": 29,
+        "name": "Brussels Airport",
+        "country": "Belgium",
+        "city": "Brussels",
+        "code": "BRU"
+    },
+    {
+        "idairport": 30,
+        "name": "Oslo Gardermoen Airport",
+        "country": "Norway",
+        "city": "Oslo",
+        "code": "OSL"
+    },
+    {
+        "idairport": 31,
+        "name": "Stockholm Arlanda Airport",
+        "country": "Sweden",
+        "city": "Stockholm",
+        "code": "ARN"
+    },
+    {
+        "idairport": 32,
+        "name": "Lisbon Portela Airport",
+        "country": "Portugal",
+        "city": "Lisbon",
+        "code": "LIS"
+    },
+    {
+        "idairport": 33,
+        "name": "Madrid Barajas Airport",
+        "country": "Spain",
+        "city": "Madrid",
+        "code": "MAD"
+    },
+    {
+        "idairport": 34,
+        "name": "Rome Fiumicino Airport",
+        "country": "Italy",
+        "city": "Rome",
+        "code": "FCO"
+    },
+    {
+        "idairport": 35,
+        "name": "Istanbul Airport",
+        "country": "Turkey",
+        "city": "Istanbul",
+        "code": "IST"
+    },
+    {
+        "idairport": 36,
+        "name": "Athens International Airport",
+        "country": "Greece",
+        "city": "Athens",
+        "code": "ATH"
+    },
+    {
+        "idairport": 37,
+        "name": "Cairo International Airport",
+        "country": "Egypt",
+        "city": "Cairo",
+        "code": "CAI"
+    },
+    {
+        "idairport": 38,
+        "name": "Cape Town International Airport",
+        "country": "South Africa",
+        "city": "Cape Town",
+        "code": "CPT"
+    },
+    {
+        "idairport": 39,
+        "name": "Rio de Janeiro International Airport",
+        "country": "Brazil",
+        "city": "Rio de Janeiro",
+        "code": "GIG"
+    },
+    {
+        "idairport": 40,
+        "name": "Sao Paulo/Guarulhos International Airport",
+        "country": "Brazil",
+        "city": "Sao Paulo",
+        "code": "GRU"
+    },
+    {
+        "idairport": 41,
+        "name": "Cat Bi International Airport",
+        "country": "Vietnam",
+        "city": "Hai Phong",
+        "code": "HPH"
+    },
+    {
+        "idairport": 42,
+        "name": "Can Tho International Airport",
+        "country": "Vietnam",
+        "city": "Can Tho",
+        "code": "VCA"
+    },
+    {
+        "idairport": 43,
+        "name": "Phu Quoc International Airport",
+        "country": "Vietnam",
+        "city": "Phu Quoc",
+        "code": "PQC"
+    },
+    {
+        "idairport": 44,
+        "name": "Van Don International Airport",
+        "country": "Vietnam",
+        "city": "Quang Ninh",
+        "code": "VDO"
+    },
+    {
+        "idairport": 45,
+        "name": "Thoi Loi Airport",
+        "country": "Vietnam",
+        "city": "Ho Chi Minh City",
+        "code": "VVH"
+    },
+    {
+        "idairport": 46,
+        "name": "Bai Thuong International Airport",
+        "country": "Vietnam",
+        "city": "Nha Trang",
+        "code": "CXR"
+    },
+    {
+        "idairport": 47,
+        "name": "Quang Binh Airport",
+        "country": "Vietnam",
+        "city": "Dong Hoi",
+        "code": "UIH"
+    },
+    {
+        "idairport": 48,
+        "name": "Hue Phu Bai International Airport",
+        "country": "Vietnam",
+        "city": "Hue",
+        "code": "HUI"
+    },
+    {
+        "idairport": 49,
+        "name": "Dong Hoi Airport",
+        "country": "Vietnam",
+        "city": "Quang Binh",
+        "code": "UIH"
+    },
+    {
+        "idairport": 50,
+        "name": "Pleiku Airport",
+        "country": "Vietnam",
+        "city": "Gia Lai",
+        "code": "PXU"
+    },
+    {
+        "idairport": 51,
+        "name": "Rach Gia Airport",
+        "country": "Vietnam",
+        "city": "Kien Giang",
+        "code": "VKG"
+    },
+    {
+        "idairport": 52,
+        "name": "Buon Ma Thuot Airport",
+        "country": "Vietnam",
+        "city": "Dak Lak",
+        "code": "BMV"
+    },
+    {
+        "idairport": 53,
+        "name": "Chu Lai Airport",
+        "country": "Vietnam",
+        "city": "Quang Nam",
+        "code": "VCL"
+    }
+]
